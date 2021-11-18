@@ -10,7 +10,7 @@
 <body>
 <?php
 
-$url ="https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyDsbCN6NWRzvkGEmSaXko2om8fmda3DgYo";
+$url ="https://www.googleapis.com/webfonts/v1/webfonts?key=Google Api Key";
 	
 	$client = curl_init($url);
 	curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
